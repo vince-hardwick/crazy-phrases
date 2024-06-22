@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: papayawhip;
+    min-height: 100vh;
+}
+
+.peralta-regular {
+    font-family: 'Peralta', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_title_container {
+    display: inline-flex;
+    align-items: center;
+}
+
+#main_title_container img {
+    margin: 20px;
+}
+
+#nav_icon_container {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#nav_icon_container a {
+    margin: 0px 20px;
+}
+
+#main_title_h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px #333;
+    color: dodgerblue;
+}
+
+.phrase_row {
+    width: 50%;
+    border: 1px solid #333;
+    margin: auto;
+    /* Remove default space between inline-block elements */
+    font-size: 0;
+}
+
+input[type="text"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    width: calc(100% / 3);
+}
